@@ -333,3 +333,6 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+/ReleaseNotes.md
+/coverage.json
+/coverage.xml
