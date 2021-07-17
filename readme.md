@@ -1,6 +1,6 @@
 # VaraniumSharp.DryIoC
 
-![Logo](images/logo.png)
+![Logo](nugetIcon.png)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/xomgkiulnlywy6cb/branch/master?svg=true)](https://ci.appveyor.com/project/DeadlyEmbrace/varaniumsharp-dryioc/branch/master)
 [![NuGet](https://img.shields.io/nuget/v/VaraniumSharp.DryIoc.svg)](https://www.nuget.org/packages/VaraniumSharp.DryIoc/)
