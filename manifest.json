@@ -4,348 +4,12 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Attributes.DisposableTransientAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Attributes.DisposableTransientAttribute.html",
-          "hash": "OrbxD7F3S4UrF1GzW+NXtg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Attributes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Attributes.html",
-          "hash": "icunx/1M/bcSubPb0oU9+g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.ContainerSetup.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.ContainerSetup.html",
-          "hash": "sPehEawyJJUTUKxFEjBpvg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Extensions.ServiceReuseExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Extensions.ServiceReuseExtensions.html",
-          "hash": "ZritR3giK+xac43pQWmFOg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Extensions.html",
-          "hash": "Ho5dqSgGud04FGZ63ug6oQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.ContainerSetupTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.ContainerSetupTest.html",
-          "hash": "V1+uIYCi1O/+PO23z30xgg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Extensions.ServiceReuseExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Extensions.ServiceReuseExtensions.html",
-          "hash": "sBrsFhdMHjT4jJT8hojxoQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Extensions.html",
-          "hash": "WicrYCHiiNXUzfBYmvgaJQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.AutoRegistrationDummy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.AutoRegistrationDummy.html",
-          "hash": "ERovNQ3FWlfQqa4A4n86sw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.BaseClassDummy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.BaseClassDummy.html",
-          "hash": "708oIBhvj8aClH1eTbf4Ag=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.DisposableConcretionImplementation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.DisposableConcretionImplementation.html",
-          "hash": "D2ZJTL2a2EiRuJ5577J5Tg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.DisposableDummy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.DisposableDummy.html",
-          "hash": "2VUHhv3UbAtx4g794PNU/g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.IDisposableConcretionBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.IDisposableConcretionBase.html",
-          "hash": "E6ZsEIotuzpmQ9Ex8Cpq7Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.ITestInterfaceDummy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.ITestInterfaceDummy.html",
-          "hash": "yE9hf4UCHXbNhu6Os/Etqg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.ImplementationClassDummy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.ImplementationClassDummy.html",
-          "hash": "bw7Q1ryUrSFipNw+OrzvPQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.ImplementationClassTooDummy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.ImplementationClassTooDummy.html",
-          "hash": "bMqcFPHySrmlnhyJYHtTMw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.InheritorClassDummy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.InheritorClassDummy.html",
-          "hash": "KzDt9IfmW8U/xwmjZq8Cww=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.MultiConstructorClass.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.MultiConstructorClass.html",
-          "hash": "HhGZBqs3Xyo8bH76AR6zzg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.MultiConstructorConcretionClassDummy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.MultiConstructorConcretionClassDummy.html",
-          "hash": "lF7GPny0ilDQg7Db+v1ZNQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.MultiConstructorConcretionInheritor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.MultiConstructorConcretionInheritor.html",
-          "hash": "W+XCceaXX0zO3SG+xwwL6w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.SecondaryDisposableConcretionImplementation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.SecondaryDisposableConcretionImplementation.html",
-          "hash": "cuWK6DSsN+RzHZ7L/3P7mQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.SingletonDummy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.SingletonDummy.html",
-          "hash": "PdpdiIJ0JAdlHeVxCxTJtQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.Fixtures.html",
-          "hash": "zXPRKD6g8rzBrhS5XJ953Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Tests.html",
-          "hash": "lhjC3XSZ3wXxqmpxVtwADw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Wrappers.HttpClientInjectableWrapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Wrappers.HttpClientInjectableWrapper.html",
-          "hash": "NoT/asA5EeqU0PS4sN3PjA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Wrappers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Wrappers.html",
-          "hash": "y8EttL4gHicI5EpN1KVNjw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.html",
-          "hash": "4gkKD2Eo+gCTaAHbWh4gOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "xyde13FZzHgt2Suu49R/0Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "QdrJJFDy5cFadjEKgT5YwA=="
+          "hash": "DPk9uAUOqU7CV0WRGCCl+A=="
         }
       },
       "is_incremental": false,
@@ -357,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "6WtIM2ha1KIzaOkJDdIugA=="
+          "hash": "0AmjEvyfvOg6VcRVBfYZYQ=="
         }
       },
       "is_incremental": false,
@@ -369,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+          "hash": "gB8AESyvNru97tzIZofEEg=="
         }
       },
       "is_incremental": false,
@@ -392,7 +56,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "rw8gQ1yuk5ysHF+jtBOhdQ=="
+          "hash": "k4Ej3uiN1geS8ewu5OWgeg=="
         }
       },
       "is_incremental": false,
@@ -404,7 +68,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "1Xdjw8Ib7j95/TiJDj+CFw=="
+          "hash": "OjEe1a/2TUyDkueTlrEXSw=="
         }
       },
       "is_incremental": false,
@@ -416,26 +80,31 @@
       "status": {
         "can_incremental": false,
         "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build"
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },
@@ -443,7 +112,9 @@
       "status": {
         "can_incremental": false,
         "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
-        "incrementalPhase": "postProcessing"
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {}
     }
