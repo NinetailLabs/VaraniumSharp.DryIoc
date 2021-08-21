@@ -8,5 +8,7 @@
 
 Wrapper for [DryIoC](https://github.com/dadhi/DryIoc) that allows [VaraniumSharp](https://github.com/NinetailLabs/VaraniumSharp) based attribute dependency registration
 
+See our documentation [here](https://ninetaillabs.github.io/VaraniumSharp.DryIoc/)
+
 ## Icon
 [Sprout](https://thenounproject.com/term/sprout/607325/) by [parkjisun](https://thenounproject.com/naripuru/) from the Noun Project
