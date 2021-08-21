@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using DryIoc;
 using VaraniumSharp.Attributes;
 using VaraniumSharp.Interfaces.DependencyInjection;
@@ -29,6 +30,12 @@ namespace VaraniumSharp.DryIoc.Wrappers
         public TService Resolve<TService>()
         {
             return _container.Resolve<TService>();
+        }
+
+        /// <inheritdoc />
+        public object Resolve(Type type)
+        {
+            return _container.Resolve(type);
         }
 
         /// <inheritdoc />
