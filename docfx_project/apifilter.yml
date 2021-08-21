@@ -1,4 +1,4 @@
 apiRules:
 - exclude:
-    uidRegex: ^VaraniumSharp\.Tests
+    uidRegex: ^VaraniumSharp.DryIoc\.Tests
     type: Type
