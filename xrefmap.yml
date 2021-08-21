@@ -146,6 +146,12 @@ references:
   isSpec: "True"
   fullName: VaraniumSharp.DryIoc.Wrappers.FactoryContainerWrapper.FactoryContainerWrapper
   nameWithType: FactoryContainerWrapper.FactoryContainerWrapper
+- uid: VaraniumSharp.DryIoc.Wrappers.FactoryContainerWrapper.Resolve(System.Type)
+  name: Resolve(Type)
+  href: api/VaraniumSharp.DryIoc.Wrappers.FactoryContainerWrapper.html#VaraniumSharp_DryIoc_Wrappers_FactoryContainerWrapper_Resolve_System_Type_
+  commentId: M:VaraniumSharp.DryIoc.Wrappers.FactoryContainerWrapper.Resolve(System.Type)
+  fullName: VaraniumSharp.DryIoc.Wrappers.FactoryContainerWrapper.Resolve(System.Type)
+  nameWithType: FactoryContainerWrapper.Resolve(Type)
 - uid: VaraniumSharp.DryIoc.Wrappers.FactoryContainerWrapper.Resolve*
   name: Resolve
   href: api/VaraniumSharp.DryIoc.Wrappers.FactoryContainerWrapper.html#VaraniumSharp_DryIoc_Wrappers_FactoryContainerWrapper_Resolve_
