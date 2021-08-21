@@ -26,6 +26,23 @@ namespace VaraniumSharp.DryIoc.Tests.Wrappers
         }
 
         [Fact]
+        public void ResolvingAnEntryFromTheContainerWorksByTypeCorrectly()
+        {
+            // arrange
+            var containerDummy = new ContainerFixture();
+            var resultDummy = new Mock<ITestHelper>();
+            containerDummy.EntriesToReturn.Add(resultDummy.Object);
+            var sut = new FactoryContainerWrapper(containerDummy);
+
+            // act
+            var _ = sut.Resolve(typeof(ITestHelper));
+
+            // assert
+            containerDummy.ResolveCalls.Count.Should().Be(1);
+            containerDummy.ResolveCalls[0].Should().Be(typeof(ITestHelper));
+        }
+
+        [Fact]
         public void ResolvingMultipleEntriesWorksCorrectly()
         {
             // arrange
