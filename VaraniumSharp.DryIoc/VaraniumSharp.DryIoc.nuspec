@@ -10,6 +10,7 @@
     <summary>VaraniumSharp attribute based injector wrapper for DryIoC</summary>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/NinetailLabs/VaraniumSharp.DryIoc</projectUrl>
+    <icon>images\nugetIcon.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright (c) NineTail Labs 2021</copyright>
     <releaseNotes>ReleaseNotesHere</releaseNotes>
