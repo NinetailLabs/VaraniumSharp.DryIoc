@@ -20,7 +20,7 @@
 
     <dependencies>
       <group targetFramework="netstandard2.0">
-        <dependency id="VaraniumSharp" version="3.7.0" />
+        <dependency id="VaraniumSharp" version="3.9.3" />
         <dependency id="DryIoc.dll" version="4.8.1" />
       </group>
     </dependencies>
