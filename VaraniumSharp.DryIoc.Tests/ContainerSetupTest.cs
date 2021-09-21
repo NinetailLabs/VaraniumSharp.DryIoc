@@ -38,6 +38,21 @@ namespace VaraniumSharp.DryIoc.Tests
         }
 
         [Fact]
+        public void AutoResolveClassesAreCorrectlyResolved()
+        {
+            // arrange
+            var sut = new ContainerSetup();
+            sut.RetrieveClassesRequiringRegistration(true);
+
+            // act
+            sut.AutoResolveRequiredClasses();
+
+            // assert
+            var _ = sut.Resolve<AutoResolve>();
+            AutoResolve.TimesResolved.Should().BeGreaterOrEqualTo(2);
+        }
+
+        [Fact]
         public void ConcretionClassesCorrectlyApplyReuse()
         {
             // arrange

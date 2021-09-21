@@ -9,11 +9,21 @@ using VaraniumSharp.Enumerations;
 
 namespace VaraniumSharp.DryIoc.Tests.Fixtures
 {
+    [AutomaticContainerRegistration(typeof(AutoResolve), AutoResolveAtStartup = true)]
+    public class AutoResolve
+    {
+        public AutoResolve()
+        {
+            TimesResolved++;
+        }
+
+        public static int TimesResolved { get; private set; }
+    }
+
     [AutomaticConcretionContainerRegistration]
     [DisposableTransient]
     public interface IDisposableConcretionBase : IDisposable
-    {
-    }
+    {}
 
     public class DisposableConcretionImplementation : IDisposableConcretionBase
     {
@@ -52,35 +62,28 @@ namespace VaraniumSharp.DryIoc.Tests.Fixtures
 
     [AutomaticContainerRegistration(typeof(AutoRegistrationDummy))]
     public class AutoRegistrationDummy
-    {
-    }
+    {}
 
     [AutomaticContainerRegistration(typeof(SingletonDummy), ServiceReuse.Singleton)]
     public class SingletonDummy
-    {
-    }
+    {}
 
     [AutomaticConcretionContainerRegistration]
     public abstract class BaseClassDummy
-    {
-    }
+    {}
 
     public class InheritorClassDummy : BaseClassDummy
-    {
-    }
+    {}
 
     [AutomaticConcretionContainerRegistration(ServiceReuse.Singleton)]
     public interface ITestInterfaceDummy
-    {
-    }
+    {}
 
     public class ImplementationClassDummy : ITestInterfaceDummy
-    {
-    }
+    {}
 
     public class ImplementationClassTooDummy : ITestInterfaceDummy
-    {
-    }
+    {}
 
     [AutomaticContainerRegistration(typeof(MultiConstructorClass), ServiceReuse.Default, true)]
     public class MultiConstructorClass
@@ -107,8 +110,7 @@ namespace VaraniumSharp.DryIoc.Tests.Fixtures
 
     [AutomaticConcretionContainerRegistration(ServiceReuse.Default, true)]
     public abstract class MultiConstructorConcretionClassDummy
-    {
-    }
+    {}
 
     public class MultiConstructorConcretionInheritor : MultiConstructorConcretionClassDummy
     {

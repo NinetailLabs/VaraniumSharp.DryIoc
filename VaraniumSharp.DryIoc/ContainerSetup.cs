@@ -125,6 +125,15 @@ namespace VaraniumSharp.DryIoc
             }
         }
 
+        /// <inheritdoc />
+        protected override void AutoResolveStartupInstance()
+        {
+            foreach (var entry in ClassesToAutoRegister)
+            {
+                var _ = _container.Resolve(entry);
+            }
+        }
+
         #endregion Protected Methods
     }
 }
