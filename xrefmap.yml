@@ -38,6 +38,19 @@ references:
   isSpec: "True"
   fullName: VaraniumSharp.DryIoc.ContainerSetup.ContainerSetup
   nameWithType: ContainerSetup.ContainerSetup
+- uid: VaraniumSharp.DryIoc.ContainerSetup.AutoResolveStartupInstance
+  name: AutoResolveStartupInstance()
+  href: api/VaraniumSharp.DryIoc.ContainerSetup.html#VaraniumSharp_DryIoc_ContainerSetup_AutoResolveStartupInstance
+  commentId: M:VaraniumSharp.DryIoc.ContainerSetup.AutoResolveStartupInstance
+  fullName: VaraniumSharp.DryIoc.ContainerSetup.AutoResolveStartupInstance()
+  nameWithType: ContainerSetup.AutoResolveStartupInstance()
+- uid: VaraniumSharp.DryIoc.ContainerSetup.AutoResolveStartupInstance*
+  name: AutoResolveStartupInstance
+  href: api/VaraniumSharp.DryIoc.ContainerSetup.html#VaraniumSharp_DryIoc_ContainerSetup_AutoResolveStartupInstance_
+  commentId: Overload:VaraniumSharp.DryIoc.ContainerSetup.AutoResolveStartupInstance
+  isSpec: "True"
+  fullName: VaraniumSharp.DryIoc.ContainerSetup.AutoResolveStartupInstance
+  nameWithType: ContainerSetup.AutoResolveStartupInstance
 - uid: VaraniumSharp.DryIoc.ContainerSetup.RegisterClasses
   name: RegisterClasses()
   href: api/VaraniumSharp.DryIoc.ContainerSetup.html#VaraniumSharp_DryIoc_ContainerSetup_RegisterClasses
