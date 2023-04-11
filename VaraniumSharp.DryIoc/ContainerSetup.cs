@@ -1,6 +1,7 @@
 ﻿using DryIoc;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Security.Claims;
 using VaraniumSharp.Attributes;
 using VaraniumSharp.DependencyInjection;
 using VaraniumSharp.DryIoc.Attributes;
@@ -130,7 +131,18 @@ namespace VaraniumSharp.DryIoc
         {
             foreach (var entry in ClassesToAutoRegister)
             {
-                var _ = _container.Resolve(entry);
+                var registrationAttribute =
+                    (AutomaticConcretionContainerRegistrationAttribute)
+                    entry.GetCustomAttribute(typeof(AutomaticConcretionContainerRegistrationAttribute));
+
+                if (registrationAttribute != null)
+                {
+                    var _ = _container.ResolveMany(entry);
+                }
+                else
+                {
+                    var _ = _container.Resolve(entry);
+                }
             }
         }
 
