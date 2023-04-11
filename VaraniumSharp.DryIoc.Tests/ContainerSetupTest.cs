@@ -8,7 +8,20 @@ namespace VaraniumSharp.DryIoc.Tests
 {
     public class ContainerSetupTest
     {
-        #region Public Methods
+        [Fact]
+        public void AutoResolveClassesAreCorrectlyResolved()
+        {
+            // arrange
+            var sut = new ContainerSetup();
+            sut.RetrieveClassesRequiringRegistration(true);
+
+            // act
+            sut.AutoResolveRequiredClasses();
+
+            // assert
+            var _ = sut.Resolve<AutoResolve>();
+            AutoResolve.TimesResolved.Should().BeGreaterOrEqualTo(2);
+        }
 
         [Fact]
         public void ClassWithMultipleConstructorsIsRegisteredCorrectly()
@@ -20,6 +33,22 @@ namespace VaraniumSharp.DryIoc.Tests
             // act
             // assert
             act.Should().NotThrow<Exception>();
+        }
+
+        [Fact]
+        public void ConcretionAutoResolveClassesAreCorrectlyResolved()
+        {
+            // arrange
+            var sut = new ContainerSetup();
+            sut.RetrieveConcretionClassesRequiringRegistration(true);
+
+            // act
+            sut.AutoResolveRequiredClasses();
+
+            // assert
+            var autoResolves = sut.ResolveMany<AutoResolveBase>().ToList();
+            autoResolves.Count.Should().Be(2);
+            autoResolves.All(x => x.TimesResolved == 1).Should().BeTrue();
         }
 
         [Fact]
@@ -35,21 +64,6 @@ namespace VaraniumSharp.DryIoc.Tests
             var resolvedClass = sut.ResolveMany<BaseClassDummy>().ToList();
             resolvedClass.Count.Should().Be(1);
             resolvedClass.First().GetType().Should().Be(typeof(InheritorClassDummy));
-        }
-
-        [Fact]
-        public void AutoResolveClassesAreCorrectlyResolved()
-        {
-            // arrange
-            var sut = new ContainerSetup();
-            sut.RetrieveClassesRequiringRegistration(true);
-
-            // act
-            sut.AutoResolveRequiredClasses();
-
-            // assert
-            var _ = sut.Resolve<AutoResolve>();
-            AutoResolve.TimesResolved.Should().BeGreaterOrEqualTo(2);
         }
 
         [Fact]
@@ -180,7 +194,5 @@ namespace VaraniumSharp.DryIoc.Tests
             var secondResolve = sut.Resolve<AutoRegistrationDummy>();
             resolvedClass.Should().NotBe(secondResolve);
         }
-
-        #endregion
     }
 }
