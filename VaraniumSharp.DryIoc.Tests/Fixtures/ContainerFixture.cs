@@ -75,6 +75,11 @@ namespace VaraniumSharp.DryIoc.Tests.Fixtures
             throw new NotImplementedException();
         }
 
+        public IEnumerable<DecoratorRegistrationInfo> GetDecoratorRegistrations()
+        {
+            throw new NotImplementedException();
+        }
+
         public Factory[] GetRegisteredFactories(Type serviceType, object serviceKey, FactoryType factoryType)
         {
             throw new NotImplementedException();
