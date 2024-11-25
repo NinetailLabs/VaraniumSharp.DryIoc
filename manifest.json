@@ -4,132 +4,12 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Attributes.DisposableTransientAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Attributes.DisposableTransientAttribute.html",
-          "hash": "U6G90Si0WmXP3EZavAnWVoLrdvgWG3TmIDdJ4YcybiY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Attributes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Attributes.html",
-          "hash": "DqdmdzjGnjuzvtexgaAn0l6X2UN7SumObXYvcBLtmLw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.ContainerSetup.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.ContainerSetup.html",
-          "hash": "V8hYuESjdTiPYnauuRhrfggHWEUANde7/Glfg9JbUlI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Extensions.ServiceReuseExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Extensions.ServiceReuseExtensions.html",
-          "hash": "h0Vy+HZGlNT+E10VdmY2O5iL+Axz6qUjVnoHXOxWFUk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Extensions.html",
-          "hash": "3I5pbvN1FvR4VG9ZHxPni0Xq+quRhLLGUY9fwKpdzTA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Wrappers.FactoryContainerWrapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Wrappers.FactoryContainerWrapper.html",
-          "hash": "LN70JTapUxwqmi0egc88TCRDFzMO/XB8cWyGmBXhXLw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Wrappers.HttpClientInjectableWrapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Wrappers.HttpClientInjectableWrapper.html",
-          "hash": "HZwVNAIU7dzgmKN6qxXH+AFCDfxGIiNSHcpXMxnbpZA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.Wrappers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.Wrappers.html",
-          "hash": "1inIK9pmzeKYGM1gsZIztQ1W3pA7qTenBTqxgS/c7OY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VaraniumSharp.DryIoc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VaraniumSharp.DryIoc.html",
-          "hash": "UXhS4vVjGkdxrucD9IEAnvxeqioOeO0BB424oi5ljmg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "wFLc2BOqOzYqvEGkslqBrBKXtmEWkjlGqaVaOfmZHV4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "9g98IzQGWPZvdQuQWTm+d6c2iMxJ1NnVOpvDSP7drfU="
+          "hash": "upPZ8iIIGGL8SwxG409w6gWvuzvqRpTqH7d+LN/u+iw="
         }
       },
       "is_incremental": false,
@@ -188,7 +68,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "s+UecGKJLe11K3w4+MJjx6QoiqktkO8teeQG06lk8L0="
+          "hash": "SfpqaaaRkqleaKDGaUS1uB78wPwHCwxhQVteqHU6qx4="
         }
       },
       "is_incremental": false,
@@ -210,12 +90,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 9,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
