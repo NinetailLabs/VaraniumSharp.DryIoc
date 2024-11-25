@@ -232,8 +232,8 @@ if ($Configuration) { $cakeArguments += "--configuration=$Configuration" }
 if ($Verbosity) { $cakeArguments += "--verbosity=$Verbosity" }
 if ($ShowDescription) { $cakeArguments += "--showdescription" }
 if ($DryRun) { $cakeArguments += "--dryrun" }
-if ($Experimental) { $cakeArguments += "--experimental" }
-if ($Mono) { $cakeArguments += "--mono" }
+if ($Experimental) { $cakeArguments += "-experimental" }
+if ($Mono) { $cakeArguments += "-mono" }
 $cakeArguments += $ScriptArgs
 if ($Branch) { $cakeArguments += "--branch=$Branch"}
 if ($BuildCounter) { $cakeArguments += "--buildCounter=$BuildCounter" }
